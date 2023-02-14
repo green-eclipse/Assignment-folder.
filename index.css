@@ -1,0 +1,31 @@
+*{
+    padding:0px;
+
+    margin:0px;
+}
+
+.muzzy::before{
+    content: '';
+    background-image: url('media/pic/talkbusiness.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    bottom:0 ;
+    left: 0;
+    right: 0;
+    opacity: 0.3;
+
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(185, 44, 44);
+    font-weight: bolder;
+}
+
+.muzzy{
+    margin-top: 20%;
+}
